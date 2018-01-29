@@ -1,9 +1,9 @@
 ---
 applications:
-- name: kptc
+- name: kpjava1
   random-route: true
   path: .
   memory: 512M
   instances: 1
-  host: kptc
+  host: kpjava1
   domain: au-syd.mybluemix.net
