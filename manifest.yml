@@ -1,9 +1,9 @@
 ---
 applications:
-- name: kpjava32
+- name: kptc
   random-route: true
-  path: target/ECAD02.war
+  path: .
   memory: 512M
   instances: 1
-  host: kpjava32
+  host: kptc
   domain: au-syd.mybluemix.net

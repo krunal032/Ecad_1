@@ -1,0 +1,21 @@
+{
+  "ServiceId": "com.ibm.cloudoe.orion.client.deploy",
+  "Params": {
+    "Target": {
+      "Url": "https://api.au-syd.bluemix.net",
+      "Org": "pawrawal@in.ibm.com",
+      "Space": "GanpatUniversity"
+    },
+    "Name": "Ecad_1",
+    "Instrumentation": {
+      "domain": "au-syd.mybluemix.net",
+      "services": [
+        "ClearDB Managed MySQL Database-6e",
+        "Alert Notification-vk"
+      ],
+      "instances": "1"
+    }
+  },
+  "Path": "manifest.yml",
+  "Type": "Cloud Foundry"
+}
