@@ -2,7 +2,7 @@
 applications:
 - name: kpjava32
   random-route: true
-  path: .
+  path: target/ECAD02.war
   memory: 512M
   instances: 1
   host: kpjava32
