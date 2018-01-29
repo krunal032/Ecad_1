@@ -1,9 +1,9 @@
 ---
 applications:
-- name: kpjava1
+- name: kpjava32
   random-route: true
   path: .
   memory: 512M
   instances: 1
-  host: kpjava1
+  host: kpjava32
   domain: au-syd.mybluemix.net
